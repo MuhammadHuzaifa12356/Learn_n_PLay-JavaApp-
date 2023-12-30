@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3E7674"
+    android:backgroundTint="#B400B8D4"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/backbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="117dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="335dp"
+        android:layout_marginBottom="614dp"
+        android:backgroundTint="#00FBFBFB"
+        app:icon="@android:drawable/ic_menu_revert"
+        app:iconPadding="100dp"
+        app:iconSize="40dp"
+        app:iconTint="#fe3c42"
+        app:iconTintMode="multiply" />
+
+    <Button
+        android:id="@+id/buttonAlphabet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="161dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#FFAB00"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="App Setting"
+        android:textAlignment="center"
+        android:textColor="#fe3c42"
+        android:textColorHint="#1B1A1A"
+        android:textColorLink="#6D0F0F"
+        app:icon="@android:drawable/ic_menu_preferences"
+        app:iconSize="50dp"
+        app:iconTint="#fe3c42" />
+
+    <Button
+        android:id="@+id/buttonShape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAlphabet"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#FFAB00"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="See Progress/Reward"
+        android:textColor="#fe3c42"
+        android:textColorHighlight="#C60F0F"
+        android:textColorHint="#1B1A1A"
+        android:textColorLink="#6D0F0F"
+        app:icon="@android:drawable/btn_star_big_on"
+        app:iconSize="50dp"
+        app:iconTint="#fe3c42" />
+
+    <Button
+        android:id="@+id/airplane"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonShape"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#FFAB00"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Enable Airplane  Mode"
+        android:textColor="#fe3c42"
+        android:textColorHint="#1B1A1A"
+        android:textColorLink="#6D0F0F"
+        app:icon="@drawable/plane"
+        app:iconSize="50dp"
+        app:iconTint="#fe3c42" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:backgroundTint="#FFD600"
+        android:fontFamily="@font/alfa_slab_one"
+        android:shadowColor="#841818"
+        android:text="Learn n' Play"
+        android:textAlignment="center"
+        android:textColor="#fe3c42"
+        android:textColorHighlight="#473C02"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/appsettingbtn"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonColor"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="167dp"
+        android:backgroundTint="#00FBFBFB"
+        android:textAlignment="center"
+        app:icon="@drawable/logout"
+        app:iconPadding="120dp"
+        app:iconSize="70dp"
+        app:iconTint="#fe3c42"
+        app:iconTintMode="src_atop" />
+
+</RelativeLayout>

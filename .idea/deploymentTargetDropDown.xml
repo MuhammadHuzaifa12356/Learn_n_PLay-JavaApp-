@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <value>
+      <entry key="Game">
+        <State />
+      </entry>
+      <entry key="HomeScreen">
+        <State />
+      </entry>
+      <entry key="MainActivity">
+        <State />
+      </entry>
+      <entry key="PuzzleGame">
+        <State />
+      </entry>
+      <entry key="QuizActivity">
+        <State />
+      </entry>
+    </value>
+  </component>
+</project>
